@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/vtamilselvan0123/brain-tasks-app.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t brain-tasks-app .'
@@ -27,3 +21,4 @@ pipeline {
 
     }
 }
+
