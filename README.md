@@ -1,4 +1,4 @@
-# Project:Mind_Track_Project – CI/CD to AWS EKS using ECR + CodeBuild + CodePipeline
+# Project:Mind_Track – CI/CD to AWS EKS using ECR + CodeBuild + CodePipeline
 
 ## Overview
 This project demonstrates how to containerize an application, store images in AWS ECR, deploy into AWS EKS using Kubernetes manifests, and automate the workflow using AWS CodePipeline and CodeBuild.
